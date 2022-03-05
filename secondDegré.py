@@ -24,9 +24,9 @@ elif a != 0:
                     x1 = (-b - racine_de_delta)/2*a            
                     x2 = (-b + racine_de_delta)/2*a
                     print(" Vous avez comme solution x1 = {} et x2 = {} ".format(x1,x2))
-            else:
+          else:
                print("utiliser b'")
-    else if choice == "b'":
+    elif choice == "b'":
         if b % 2 != 0:
                print("Utiliser b")
         else:
@@ -37,9 +37,9 @@ elif a != 0:
              if delta_prime == 0:
                     x = -bp/a
                     print("Vous avez comme solution x1 = x2 = " + str(x))
-              elif delta_prime < 0:
+             elif delta_prime < 0:
                     print("Vous n'avez pas de solution !")
-               elif delta_prime > 0:
+             elif delta_prime > 0:
                     racine_de_delta = math.sqrt(delta_prime)
                     x1 = (-bp - racine_de_delta)/a            
                     x2 = (-bp + racine_de_delta)/a
